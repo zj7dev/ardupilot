@@ -1,3 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ArduCopter">
+      <UniqueIdentifier>{12611fb7-14cd-48bd-922a-bebacb57a944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries">
+      <UniqueIdentifier>{ca68d5a6-c0ad-4c9f-957c-47382e07c154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\AP_Mission">
+      <UniqueIdentifier>{505c5b68-e2fa-4927-8cb2-a0d851ab3ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\AP_Winch">
+      <UniqueIdentifier>{9c65960d-9b65-49c4-b405-b9155b6c14e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArduCopter\Copter.cpp">
+      <Filter>ArduCopter</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduCopter\GCS_Mavlink.cpp">
+      <Filter>ArduCopter</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduCopter\mode_auto.cpp">
+      <Filter>ArduCopter</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\AP_Mission\AP_Mission.cpp">
+      <Filter>libraries\AP_Mission</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\AP_Winch\AP_Winch.cpp">
+      <Filter>libraries\AP_Winch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libraries\AP_Winch\AP_Winch.h">
+      <Filter>libraries\AP_Winch</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\AP_Winch\AP_Winch_Backend.h">
+      <Filter>libraries\AP_Winch</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\AP_Winch\AP_Winch_Daiwa.h">
+      <Filter>libraries\AP_Winch</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\AP_Winch\AP_Winch_PWM.h">
+      <Filter>libraries\AP_Winch</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

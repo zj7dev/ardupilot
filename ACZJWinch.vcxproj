@@ -75,6 +75,17 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
+    <ClCompile Include="ArduCopter\Copter.cpp" />
+    <ClCompile Include="ArduCopter\GCS_Mavlink.cpp" />
+    <ClCompile Include="ArduCopter\mode_auto.cpp" />
+    <ClCompile Include="libraries\AP_Mission\AP_Mission.cpp" />
+    <ClCompile Include="libraries\AP_Winch\AP_Winch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libraries\AP_Winch\AP_Winch.h" />
+    <ClInclude Include="libraries\AP_Winch\AP_Winch_Backend.h" />
+    <ClInclude Include="libraries\AP_Winch\AP_Winch_Daiwa.h" />
+    <ClInclude Include="libraries\AP_Winch\AP_Winch_PWM.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
